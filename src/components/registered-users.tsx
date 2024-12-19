@@ -24,10 +24,11 @@ export const RegisteredUsers = () => {
 };
 
 const UsersSuspense = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
   const users = [...new Array(5)];
   return (
     <>
-      {users.map((i) => (
+      {users.map((_, i) => (
         <User.Suspense key={i} />
       ))}
     </>

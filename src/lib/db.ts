@@ -1,6 +1,6 @@
-import { TRPCContext } from "@/server/api/trpc";
+import type { TRPCContext } from "@/server/api/trpc";
 import { createServerClient as _createServerClient } from "@supabase/ssr";
-import { Database } from "./db.types";
+import type { Database } from "./db.types";
 import { createClient as _createClient } from "@supabase/supabase-js";
 import { env } from "@/env";
 

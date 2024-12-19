@@ -23,7 +23,7 @@ import { userRegisterSchema } from "@/schema/userRegister";
 import { api } from "@/trpc/react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
-import { z } from "zod";
+import type { z } from "zod";
 
 export function RegistrationForm({
   className,

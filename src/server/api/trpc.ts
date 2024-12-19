@@ -8,7 +8,7 @@
  */
 import { createClient } from "@/lib/db";
 import { initTRPC } from "@trpc/server";
-import { cookies } from "next/headers";
+import type { cookies } from "next/headers";
 import superjson from "superjson";
 import { ZodError } from "zod";
 
