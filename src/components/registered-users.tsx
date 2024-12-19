@@ -89,7 +89,7 @@ const User = (
         </div>
       </div>
       <div className="text-xs text-muted-foreground">
-        Registered {getTimeDifference(props.created_at)} ago
+        {getTimeDifference(props.created_at)} ago
       </div>
     </div>
   );

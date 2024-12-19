@@ -8,7 +8,7 @@ const Page = () => {
   void api.user.read.prefetch();
   return (
     <HydrateClient>
-      <div className="flex h-full w-full flex-row gap-4">
+      <div className="flex h-full w-full flex-col gap-10 lg:flex-row lg:gap-4">
         <div className="flex h-full w-full items-center justify-center">
           <RegistrationForm />
         </div>
